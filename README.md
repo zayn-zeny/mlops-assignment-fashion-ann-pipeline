@@ -1,6 +1,6 @@
 # Fashion-ANN Pipeline
 
-End-to-End ML Versioning with Git, DVC & Google Drive
+End-to-End ML Pipeline Versioning with Git, DVC & Google Drive
 
 ## Assignment 3 — MLOps
 
