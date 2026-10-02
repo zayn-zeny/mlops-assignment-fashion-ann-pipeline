@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+/tmp/
+
+# Model files (managed by DVC)
+*.h5
+*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data (managed by DVC — only .dvc pointer files go to Git)
+/data/raw/
+/data/processed/
+/models/
+
+# OAuth tokens — never commit these
+.dvc/tmp/gdrive-user-credentials.json
+gdrive-user-credentials.json
